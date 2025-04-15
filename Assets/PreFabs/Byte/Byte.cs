@@ -118,4 +118,10 @@ public class Byte : MonoBehaviour
             bits[0].state = false;
         }
     }
+
+    public string getHex()
+    {
+        string HexValue = value.ToString("X2");
+        return HexValue;
+    }
 }
